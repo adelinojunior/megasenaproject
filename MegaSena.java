@@ -11,6 +11,7 @@ public class MegaSena {
 		int     num_escolhido[] = new int[6];
 		Random  r = new Random();
         boolean num_valido = true;
+		// Sorteando os números
 		for (int i=0; i<6; i++ ) {
 			num_escolhido[i] = Math.abs(r.nextInt()) % 61;
            	if (i >= 0) {
