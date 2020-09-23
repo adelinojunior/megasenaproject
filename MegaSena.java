@@ -31,10 +31,11 @@ public class MegaSena {
 			}
  	    }
 		  
-        /* Deixando os seis números escolhidos em ordem crescente dentro do vetor
-		   primeiro for = esse for fará com que o a variável i percorra o vetor a ser ordenado,
-           mas ela vai anda uma casa enquanto a variável j percorre o vetor todo, ou seja, 
-		   i percorrerá apenas o tamanho do vetor ja j percorrerá o tamanho do vetor vezes o tamanho do vetor */
+        /* 
+	   Deixando os seis números escolhidos em ordem crescente dentro do vetor primeiro for = esse for fará com que o a variável i percorra o vetor a ser ordenado,
+           mas ela vai anda uma casa enquanto a variável j percorre o vetor todo, ou seja, i percorrerá apenas o tamanho do vetor ja j percorrerá o tamanho do vetor 
+	   vezes o tamanho do vetor
+	*/
         for (int i = 0; i < num_escolhido.length; i++) {
             for (int j = 0; j < num_escolhido.length; j++) {
                 if (num_escolhido[i] < num_escolhido[j]) {
